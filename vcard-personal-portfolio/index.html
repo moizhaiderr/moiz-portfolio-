@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moiz Haider - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+  <!-- Particles.js Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container" style="text-align:center; position: relative; z-index: 1;">
+      <img src="../assets/images/WhatsApp Image 2025-07-15 at 1.40.26 PM.jpeg" alt="Moiz Haider" class="avatar">
+      <h1 id="typed-name" style="font-size:2.8rem; color:#fff; margin-bottom:0.5rem; min-height:3.2rem;"></h1>
+      <h2 style="color:#ff3e3e; font-size:1.5rem; margin-bottom:1.5rem;">Software Engineer</h2>
+      <p style="color:#a0a0a0; font-size:1.1rem; max-width:600px; margin:0 auto 1.5rem;">Passionate about building
+        impactful digital solutions in web and mobile, with a strong foundation in programming and a keen interest in
+        cyber security and design.</p>
+
+      <div class="social-links">
+        <a href="https://github.com/moizhaiderr" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/moizhaider/" target="_blank" title="LinkedIn"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
+      <!-- Option 1: Local file (current) -->
+      <a href="./assets/cv/Moiz Haider CV.pdf" download class="btn-cv" style="margin-top:2rem;"><i
+          class="fas fa-file-download"></i> Download CV</a>
+
+      <!-- Option 2: Cloud storage (replace URL with your actual cloud link) -->
+      <!-- <a href="https://your-cloud-storage.com/cv/Moiz-Haider-CV.pdf" download="Moiz-Haider-CV.pdf" class="btn-cv" style="margin-top:2rem;"><i class="fas fa-file-download"></i> Download CV</a> -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container" style="display:flex; flex-wrap:wrap; align-items:center; gap:2rem; justify-content:center;">
+      <div style="flex:0 0 320px; display:flex; justify-content:center; align-items:center;">
+        <div class="cube-container">
+          <div class="cube-3d">
+            <div class="cube-face front">Code</div>
+            <div class="cube-face back">Create</div>
+            <div class="cube-face right">Design</div>
+            <div class="cube-face left">Build</div>
+            <div class="cube-face top">Innovate</div>
+            <div class="cube-face bottom">Learn</div>
+          </div>
+          <div class="floating-symbols">
+            <span class="symbol">&lt;/&gt;</span>
+            <span class="symbol">{}</span>
+            <span class="symbol">[]</span>
+            <span class="symbol">()</span>
+            <span class="symbol">;&</span>
+            <span class="symbol">$</span>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1 1 350px; min-width:300px;">
+        <h2 class="section-title"><i class="fas fa-user-circle"></i> About Me</h2>
+        <div class="section-subtitle">A brief introduction and my professional journey</div>
+        <p style="max-width:800px; margin:0 auto; color:#b0b0b0; font-size:1.1rem;">
+          <i class="fas fa-quote-left" style="color:#ff3e3e;"></i>
+          I am a <b>Software Engineer</b> with a passion for <b>Web Development</b> (MERN Stack) and <b>Mobile App
+            Development</b> (Flutter). My journey is driven by curiosity and a desire to create seamless digital
+          experiences. I have a strong foundation in <b>Data Structures & Algorithms</b> and programming languages
+          including <b>Python</b>, <b>C++</b>, <b>Java</b>, and <b>JavaScript</b>. I am also a cyber security
+          enthusiast, always eager to learn about the latest tools and techniques. My creative side is nurtured by a
+          foundational understanding of graphic design, including tools like <b>Photoshop</b>, <b>Illustrator</b>, and
+          <b>InDesign</b>, as well as design theory, color, typography, and layout. I believe in continuous learning and
+          strive to blend technical expertise with creative problem-solving.
+          <i class="fas fa-quote-right" style="color:#ff3e3e;"></i>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-tools"></i> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Web Development (MERN Stack)</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width:90%"></div>
+          </div>
+          <p>Building robust, scalable web applications using MongoDB, Express, React, and Node.js.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Mobile App Development (Flutter)</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width:85%"></div>
+          </div>
+          <p>Developing cross-platform mobile apps with Flutter and Dart, focusing on performance and user experience.
+          </p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming Languages</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width:88%"></div>
+          </div>
+          <p>Proficient in Python, C++, Java, and JavaScript with a strong grasp of DSA concepts.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Design Foundation</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width:70%"></div>
+          </div>
+          <p>Skilled in Photoshop, Illustrator, InDesign, and design principles: color, typography, and layout.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Cyber Security Enthusiast</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width:65%"></div>
+          </div>
+          <p>Keen interest in cyber security, always learning about new tools, techniques, and best practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+      <div class="section-subtitle">My academic background</div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 style="color:#ff3e3e;">Software Engineer</h3>
+            <p style="color:#b0b0b0;"><b>Capital University of Science and Technology</b> <span style="color:#888;">[
+                01/10/2022 – July 2026 (to be) ]</span></p>
+            <p style="color:#b0b0b0;">City: Islamabad &nbsp;|&nbsp; Country: Pakistan &nbsp;|&nbsp; <a
+                href="https://www.cust.edu.pk/" target="_blank" style="color:#ff8a65;">Website</a></p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 style="color:#ff3e3e;">F.Sc. Pre-Engineering</h3>
+            <p style="color:#b0b0b0;"><b>Punjab Group of Colleges</b> <span style="color:#888;">[ 01/09/2020 –
+                30/04/2022 ]</span></p>
+            <p style="color:#b0b0b0;">City: Rawalpindi &nbsp;|&nbsp; Country: Pakistan &nbsp;|&nbsp; <a
+                href="https://pgc.edu/" target="_blank" style="color:#ff8a65;">Website</a></p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 style="color:#ff3e3e;">Matriculation</h3>
+            <p style="color:#b0b0b0;"><b>Fauji Foundation Model School</b> <span style="color:#888;">[ 01/09/2018 –
+                30/04/2020 ]</span></p>
+            <p style="color:#b0b0b0;">City: Jhelum &nbsp;|&nbsp; Country: Pakistan &nbsp;|&nbsp; <a
+                href="https://education.fauji.org.pk/" target="_blank" style="color:#ff8a65;">Website</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
+      <div class="contact-info">
+        <div class="contact-item"><span class="contact-icon"><i class="fas fa-envelope"></i></span>
+          moizhaider232@gmail.com</div>
+        <div class="contact-item"><span class="contact-icon"><i class="fas fa-phone"></i></span> +92-343-7691578</div>
+        <div class="contact-item"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span> Rawalpindi,
+          Pakistan</div>
+        <div class="contact-item"><span class="contact-icon"><i class="fab fa-github"></i></span> <a
+            href="https://github.com/moizhaiderr" target="_blank" style="color:#ff3e3e;">github.com/moizhaiderr</a>
+        </div>
+        <div class="contact-item"><span class="contact-icon"><i class="fab fa-linkedin"></i></span> <a
+            href="https://www.linkedin.com/in/moizhaider/" target="_blank"
+            style="color:#ff3e3e;">linkedin.com/in/moizhaider</a></div>
+      </div>
+      <form class="contact-form" autocomplete="off">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+      </form>
+    </div>
+  </section>
+  <script src="../assets/js/main.js"></script>
+
+  <!-- Particles.js initialization - Direct approach -->
+  <script>
+    // Wait for particles.js to load
+    window.addEventListener('load', function () {
+      if (typeof particlesJS !== 'undefined') {
+        particlesJS("particles-js", {
+          "particles": {
+            "number": {
+              "value": 80,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "color": {
+              "value": "#ff3e3e"
+            },
+            "shape": {
+              "type": "circle",
+              "stroke": {
+                "width": 0,
+                "color": "#000000"
+              }
+            },
+            "opacity": {
+              "value": 0.5,
+              "random": false
+            },
+            "size": {
+              "value": 3,
+              "random": true
+            },
+            "line_linked": {
+              "enable": true,
+              "distance": 150,
+              "color": "#ff8a65",
+              "opacity": 0.4,
+              "width": 1
+            },
+            "move": {
+              "enable": true,
+              "speed": 6,
+              "direction": "none",
+              "random": false,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false
+            }
+          },
+          "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "push"
+              },
+              "resize": true
+            },
+            "modes": {
+              "repulse": {
+                "distance": 200,
+                "duration": 0.4
+              },
+              "push": {
+                "particles_nb": 4
+              }
+            }
+          },
+          "retina_detect": true
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
